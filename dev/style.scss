@@ -1,0 +1,290 @@
+$borderColor: transparent;
+
+.p-relative {
+  position: relative !important;
+}
+
+.b-top-transparent__anim-to-left {
+  border-top: 1px solid $borderColor;
+
+  &:before {
+    content: '';
+    width: 0%;
+    display: block;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+.b-top-transparent__anim-to-right {
+  border-top: 1px solid $borderColor;
+
+  &:after {
+    content: '';
+    width: 100%;
+    display: block;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+.b-left-transparent__anim-to-bottom {
+  border-left: 1px solid $borderColor;
+  &:after {
+    content: '';
+    width: 1px;
+    display: block;
+    height: 0%;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+.b-left-transparent {
+  border-left: 1px solid $borderColor;
+}
+.b-bot-transparent {
+  border-bottom: 1px solid $borderColor;
+}
+.b-right-transparent {
+  border-right: 1px solid $borderColor;
+}
+
+// ==========================================
+// SEQUENCE 2
+
+.b-bot-transparent__anim-to-right__sequence-2 {
+  border-bottom: 1px solid $borderColor;
+  &:before {
+    content: '';
+    width: 100%;
+    display: block;
+    height: 0.7px;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    left: 2px;
+    bottom: 0;
+  }
+}
+
+.b-right-transparent__anim-to-bottom__sequence-2 {
+  border-right: 1px solid $borderColor;
+  &:after {
+    content: '';
+    width: 1px;
+    display: block;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0;
+    right: -3px;
+  }
+}
+
+// ==========================================
+// SEQUENCE 3
+
+.b-bottom-transparent__anim-to-left__sequence-3 {
+  border-bottom: 1px solid $borderColor;
+  &:before {
+    content: '';
+    width: 100%;
+    display: block;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    bottom: -2px;
+    right: -1px;
+  }
+}
+
+.b-left-transparent__anim-to-bottom__sequence-3 {
+  border-left: 1px solid $borderColor;
+  &:before {
+    content: '';
+    width: 1px;
+    display: block;
+    height: 104.14%;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+// ==========================================
+// SEQUENCE 4
+
+.b-bottom-transparent__anim-to-right__sequence-4 {
+  border-bottom: 1px solid $borderColor;
+  &:before {
+    content: '';
+    width: 100%;
+    display: block;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    bottom: -2px;
+    left: 1px;
+  }
+}
+
+.b-right-transparent__anim-to-bottom__sequence-4 {
+  border-right: 1px solid $borderColor;
+  &:after {
+    content: '';
+    width: 1px;
+    display: block;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    right: -2px;
+    top: 0px;
+  }
+}
+
+.b-top-transparent__anim-to-left__sequence-4 {
+  border-top: 1px solid $borderColor;
+  &:after {
+    content: '';
+    width: 100%;
+    display: block;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: -2px;
+    right: -1px;
+  }
+}
+
+// ==========================================
+// SEQUENCE 5
+
+.b-left-transparent__anim-to-bottom__sequence-5 {
+  border-left: 1px solid $borderColor;
+  &:after {
+    content: '';
+    width: 1px;
+    display: block;
+    height: 2805%;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+}
+
+.b-top-transparent__anim-to-right__sequence-5 {
+  border-top: 1px solid $borderColor;
+  &:after {
+    content: '';
+    width: 100%;
+    display: block;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 1px;
+    left: 1px;
+  }
+}
+
+// ==========================================
+// SEQUENCE 6
+
+.b-right-transparent__anim-to-bottom__sequence-6 {
+  border-right: 1px solid $borderColor;
+  &:before {
+    content: '';
+    width: 1px;
+    display: block;
+    height: 1470%;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    right: -2px;
+    top: 1px;
+  }
+}
+
+.b-bottom-transparent__anim-to-left__sequence-6 {
+  border-bottom: 1px solid $borderColor;
+  &:before {
+    content: '';
+    width: 100%;
+    display: block;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+}
+
+// ==========================================
+// SEQUENCE 7
+
+.b-left-transparent__anim-to-bottom__sequence-7 {
+  border-left: 1px solid $borderColor;
+  &:before {
+    content: '';
+    width: 1px;
+    display: block;
+    height: 101%;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    left: -1px;
+    top: -1px;
+  }
+}
+
+// ==========================================
+// SEQUENCE 8
+
+.b-top-transparent__anim-to-right__sequence-8 {
+  border-top: 1px solid $borderColor;
+  &:before {
+    content: '';
+    width: 100%;
+    display: block;
+    height: 0.7px;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    left: 0px;
+    top: -1px;
+  }
+}
+
+.b-right-transparent__anim-to-bottom__sequence-8 {
+  border-right: 1px solid $borderColor;
+  &:after {
+    content: '';
+    width: 1px;
+    display: block;
+    height: 1045%;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+}
+
+.b-bottom-transparent__anim-to-left__sequence-8 {
+  border-bottom: 1px solid $borderColor;
+  &:after {
+    content: '';
+    width: 100%;
+    display: block;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    right: 1px;
+    bottom: 0px;
+  }
+}
